@@ -1,0 +1,35 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Experiment outputs and model artifacts (track selectively when appropriate)
+experiments/logs/*
+!experiments/logs/.gitkeep
+checkpoints/*
+!checkpoints/.gitkeep
+# Keep generated data out of Git; add a documented data policy if the official brief requires otherwise.
+data/
+
+# Python packaging/build
+build/
+dist/
+*.egg-info/

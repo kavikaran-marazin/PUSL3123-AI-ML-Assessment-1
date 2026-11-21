@@ -1,0 +1,3 @@
+﻿# Dependency list intentionally left unspecified in the initial scaffold.
+# Confirm required versions and platform constraints against the official assessment brief
+# and team environment before adding dependencies. No packages have been installed.
