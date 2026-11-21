@@ -1,3 +1,6 @@
-﻿# Dependency list intentionally left unspecified in the initial scaffold.
-# Confirm required versions and platform constraints against the official assessment brief
-# and team environment before adding dependencies. No packages have been installed.
+﻿--extra-index-url https://download.pytorch.org/whl/cu130
+
+torch==2.14.0+cu130
+torchvision==0.29.0+cu130
+numpy==2.5.4
+Pillow==13.0.0
