@@ -33,3 +33,6 @@ data/
 build/
 dist/
 *.egg-info/
+
+#Exercise - 2
+scratch/
